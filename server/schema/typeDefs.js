@@ -16,13 +16,15 @@ type Book {
 }
 
 input bookInput {
-    BookId: ID
+    bookId: ID
     authors: [String]
     description: String
     image: String
     link: String
     title: String
 }
+
+
 
 type Auth {
     token: ID
